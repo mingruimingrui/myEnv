@@ -1,10 +1,8 @@
 # Custom Env
 
-Home made Env, works like OpenAI gym but works with multi dimensional arrays
-This project is licensed under the terms of the MIT license.
+Home made Env, works like OpenAI gym but works with multi dimensional arrays.
 
-
-# Init variables
+## Init variables
 
 timestamps ```list-like```
 > Must be a list-like of int
@@ -35,3 +33,6 @@ getReward ```function(cur_state, next_state, action) => int```
 > Your reward function
   Should take in 2 states and an action to output an int signifying
   the value to maximise
+
+# License
+This project is licensed under the terms of the MIT license.
