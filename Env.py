@@ -16,7 +16,7 @@ class Env:
     timestamps: list-like
         Must be a list-like of int
         If your timestamps are in datetime format, an idea is to convert them
-        into unixt timestamps
+        into UNIX timestamps
         however this can really be just any comparable
         change the codes below where I assert the typings for start and end
         into the ones that you want to use
